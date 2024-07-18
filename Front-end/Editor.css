@@ -1,0 +1,37 @@
+/* editor.css */
+
+.editor-container {
+  margin: 20px;
+  text-align: left;
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the editor */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.ql-editor {
+  min-height: 300px;
+  background: none; /* Ensure no internal background is applied */
+  color: #000; /* Ensure text color is readable */
+  padding: 20px; /* Adjust padding as necessary */
+}
+
+.ql-toolbar {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent toolbar background */
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff; /* Button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker button on hover */
+}

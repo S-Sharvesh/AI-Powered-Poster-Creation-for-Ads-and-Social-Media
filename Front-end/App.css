@@ -1,0 +1,27 @@
+.App {
+  color: black;
+  text-align: center;
+  margin: 20px;
+}
+
+.poster-display {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.all-posters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.all-posters > div {
+  margin: 20px;
+}
+.input-field {
+background-color: wheat;
+}
