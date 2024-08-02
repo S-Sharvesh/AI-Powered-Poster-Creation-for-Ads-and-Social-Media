@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Replace with your actual OpenAI API key
-OPENAI_API_KEY = "sk-proj-KUFnclt0DgVj6n9ECVvlT3BlbkFJpfKRc93TswkL1vSXBXwS"
+OPENAI_API_KEY = "Your OpenAPI-Key"
 OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
 
 @app.route('/generate_poster', methods=['POST'])
