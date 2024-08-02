@@ -9,11 +9,11 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize Firebase
-cred = credentials.Certificate("/Users/sharveshs/Desktop/HTML/excanva-42a96-firebase-adminsdk-4g0hv-85a1ae57d6.json")
+cred = credentials.Certificate("Your_Firebase.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-OPENAI_API_KEY = "sk-proj-CGAn3NEuTRqpVcOysxyNT3BlbkFJI1XbkjrqcowptAKbTE3P"
+OPENAI_API_KEY = "Your OpenAPI Key"
 OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
 
 @app.route('/generateposter', methods=['POST'])
